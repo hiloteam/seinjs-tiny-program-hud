@@ -1,0 +1,40 @@
+{
+  "name": "seinjs-tiny-program-hud",
+  "version": "0.8.1",
+  "description": "TinyProgram based hud for Sein.js.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "../node_modules/.bin/tsc -p ./tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:SeinJS/Sein.js.git"
+  },
+  "keywords": [
+    "Game engine",
+    "Sein.js",
+    "SeinJS",
+    "Tiny Program",
+    "LICENCE"
+  ],
+  "authors": [
+    {
+      "name": "Tianyu Dai (dtysky)",
+      "email": "dtysky@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/SeinJS/Sein.js/issues"
+  },
+  "files": [
+    "README.md",
+    "lib",
+    "my-component"
+  ],
+  "homepage": "http://github.com/SeinJS/Sein.js#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
